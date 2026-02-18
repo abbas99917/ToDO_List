@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+
+}
+
+.show{
+    display: block;
+}
+
+img{
+    height: 300px;
+    margin-top: 20px;
+}
+#count{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#toggle{
+padding: 15px 20px;
+}
+
+
+/* classList */
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
